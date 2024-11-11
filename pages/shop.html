@@ -27,10 +27,46 @@
             font-size: 1rem !important;
             font-weight: 600 !important;
         }
-
+        #ff-submit-root{
+            width: 200px !important;
+            display: flex !important;
+            justify-content: center !important;
+            padding-left: 0 !important;
+        }
+        #ff-submit-root>span{
+            position: relative;
+            opacity: 1;
+            display: block;
+            /* width: 100%; */
+            text-wrap: nowrap;
+            color: var(--primary);
+        }
+        #ff-submit-root>span::before{
+            content: "Order Now";
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 9999999;
+            font-size: 1.2rem;
+            color: white;
+        }
+        .ff-powered-img{
+            position: relative;
+        }
+        .ff-powered-img::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 99999;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            box-shadow: none !important;
+        }
         @media screen and (max-width: 556px) {
             html {
-                font-size: 12px;
+                font-size: 14px !important;
             }
             #ff-compose input,
         #ff-compose select {
