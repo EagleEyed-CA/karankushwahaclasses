@@ -6,10 +6,42 @@
     <title>Shop Books & Classes</title>
     <link rel="stylesheet" href="../default_root_style.css">
     <link rel="stylesheet" href="../responsive_style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 17px;
+        }
+
+        #ff-compose label div b {
+            font-size: 1rem !important;
+            font-weight: 700 !important;
+        }
+
+        #ff-compose input,
+        #ff-compose select {
+            font-size: 1rem !important;
+            font-weight: 600 !important;
+        }
+
+        @media screen and (max-width: 556px) {
+            html {
+                font-size: 12px;
+            }
+            #ff-compose input,
+        #ff-compose select {
+            width: 90vw !important;
+        }
+        }
+    </style>
 </head>
 <body>
-    <div class="nobox">
-        <h2 class="nocontent">Comming Very Soon...</h2>
-    </div>
+    <div id="ff-compose"></div>
+    <script async defer
+        src="https://formfacade.com/include/115231058421811126844/form/1FAIpQLSfycbTzc-K-04IOgV7H7pxG-7Krzxnpby0zu6cXPqa48WbfEA/classic.js?div=ff-compose"></script>
 </body>
 </html>
