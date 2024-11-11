@@ -1,83 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop Books & Classes</title>
-    <link rel="stylesheet" href="../default_root_style.css">
-    <link rel="stylesheet" href="../responsive_style.css">
+    <!-- <link rel="stylesheet" href="../default_root_style.css"> -->
+    <!-- <link rel="stylesheet" href="../responsive_style.css"> -->
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
-        html {
-            font-size: 17px;
+        body{
+            width: 100vw;
+            height: 100vh   ;
+            overflow: hidden;
+            display: flex;
         }
-
-        #ff-compose label div b {
-            font-size: 1rem !important;
-            font-weight: 700 !important;
-        }
-
-        #ff-compose input,
-        #ff-compose select {
-            font-size: 1rem !important;
-            font-weight: 600 !important;
-        }
-        #ff-submit-root{
-            width: 200px !important;
-            display: flex !important;
-            justify-content: center !important;
-            padding-left: 0 !important;
-        }
-        #ff-submit-root>span{
-            position: relative;
-            opacity: 1;
-            display: block;
-            /* width: 100%; */
-            text-wrap: nowrap;
-            color: var(--primary);
-        }
-        #ff-submit-root>span::before{
-            content: "Order Now";
-            position: absolute;
-            left: 0;
-            top: 0;
-            z-index: 9999999;
-            font-size: 1.2rem;
-            color: white;
-        }
-        .ff-powered-img{
-            position: relative;
-        }
-        .ff-powered-img::before{
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 99999;
-            width: 100%;
-            height: 100%;
-            background-color: white;
-            box-shadow: none !important;
-        }
-        @media screen and (max-width: 556px) {
-            html {
-                font-size: 14px !important;
-            }
-            #ff-compose input,
-        #ff-compose select {
-            width: 90vw !important;
-        }
+        iframe{
+            width: 100vw !important;
+            height: 100% !important;
+            overflow-x: hidden;
+            overflow-y: scroll;
         }
     </style>
 </head>
+
 <body>
-    <div id="ff-compose"></div>
-    <script async defer
-        src="https://formfacade.com/include/115231058421811126844/form/1FAIpQLSfycbTzc-K-04IOgV7H7pxG-7Krzxnpby0zu6cXPqa48WbfEA/classic.js?div=ff-compose"></script>
+    <iframe src="https://formesign.com/sm/Bug3y9uej" frameborder="0"></iframe>
 </body>
+
 </html>
